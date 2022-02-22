@@ -1,0 +1,25 @@
+body {
+}
+ul {
+  list-style: none;
+}
+.nav-list links {
+  color: #212121;
+}
+.nav-list .links:hover,
+.nav-list .links:focus {
+  color: #2196f3;
+}
+.hero {
+  background-color: #2f303a;
+}
+.hero .hero-title {
+  color: #ffffff;
+}
+.hero .order {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.section-title {
+  color: #212121;
+}

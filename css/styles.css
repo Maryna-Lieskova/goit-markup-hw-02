@@ -1,29 +1,97 @@
-body {
+:root {
+  /*Основные шрифты*/
+  --main-font:'Roboto',sans-serif;
+  --secondary-font:'Raleway',sans-serif;
+  /*Цвета текста*/
+  --description-color:#757575;
+  --titles-color:#212121;
+  /*Цвета фона*/
+  --dark-background:#2F303A;
+  --light-background:#F5F5F5;
 }
-ul {
-  list-style: none;
+body{
+  font-family:var(--main-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
 }
-.nav-list links {
-  color: #212121;
+.header-item{
+  font-family:var(--main-font);
+  font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  color:var(--titles-color);
 }
-.nav-list .links:hover,
-.nav-list .links:focus {
-  color: #2196f3;
+.hero-title {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.hero-btn {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
 }
 .hero {
-  background-color: #2f303a;
+  background-color: var(--dark-background);
 }
-.hero .hero-title {
-  color: #ffffff;
+.features-title{
+  font-family:var(--main-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--titles-color);
 }
-.hero .order {
-  background-color: #2196f3;
-  color: #ffffff;
+.descr{
+  font-family:var(--main-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+  color:var(--description-color);
 }
-.section-title {
-  color: #212121;
+.features-descr{
+  font-family:var(--main-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+  letter-spacing: 0.03em;
+  color:var(--description-color);
+}
+.secondary-title{
+  font-family:var(--main-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+   color:var(--titles-color);
+}
+.worker-name{
+  font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+   color: #212121
 }
 font-family: 'Raleway',
 sans-serif;
 font-family: 'Roboto',
 sans-serif;
+color: #2196F3;

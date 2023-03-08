@@ -5,9 +5,20 @@
   /*Цвета текста*/
   --description-color:#757575;
   --titles-color:#212121;
+  --accent-color:#2196F3;
   /*Цвета фона*/
   --dark-background:#2F303A;
   --light-background:#F5F5F5;
+}
+.header-item:hover,
+.header-item:focus {
+  color: var(--accent-color);
+}
+.list{
+  list-style: none;
+}
+.link{
+  text-decoration: none;
 }
 body{
   font-family:var(--main-font);
@@ -15,12 +26,15 @@ body{
     font-size: 16px;
     line-height: 1.87;
 }
+.header{
+  background-color:#ECECEC;
+}
 .header-item{
   font-family:var(--main-font);
   font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color:var(--titles-color);
 }
 .hero-title {
@@ -56,11 +70,24 @@ body{
     text-transform: uppercase;
     color:var(--titles-color);
 }
-.descr{
+.team{
+  background-color: #F5F4FA;
+}
+.team-member-name {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121
+}
+.team-member-descr{
   font-family:var(--main-font);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
+    text-align: center;
     letter-spacing: 0.03em;
   color:var(--description-color);
 }
@@ -81,17 +108,22 @@ body{
     letter-spacing: 0.03em;
    color:var(--titles-color);
 }
-.worker-name{
-  font-family: var(--main-font);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-    letter-spacing: 0.03em;
-   color: #212121
+.project-name{
+  font-family:var(--main-font);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:var(--titles-color);
 }
-font-family: 'Raleway',
-sans-serif;
-font-family: 'Roboto',
-sans-serif;
-color: #2196F3;
+.project-descr{
+  font-family:var(--main-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+     color:var(--description-color);
+}
+.footer{
+  background-color: var(--dark-background);
+}

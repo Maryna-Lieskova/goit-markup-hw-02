@@ -14,6 +14,14 @@
 .header-item:focus {
   color: var(--accent-color);
 }
+.header-link:hover,
+.header-link:focus{
+  color: var(--accent-color);
+}
+.link:hover,
+.link:focus{
+  color: var(--accent-color);
+}
 .list{
   list-style: none;
 }
@@ -27,7 +35,23 @@ body{
     line-height: 1.87;
 }
 .header{
-  background-color:#ECECEC;
+  background-color: #ECECEC;
+}
+.header-logo{
+  font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+  color: #000000;
+}
+.logo-primary{
+  font-family:var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color:var(--accent-color);
 }
 .header-item{
   font-family:var(--main-font);
@@ -126,4 +150,22 @@ body{
 }
 .footer{
   background-color: var(--dark-background);
+  color: #FFFFFF;
 }
+.footer-logo{
+    font-family: var(--secondary-font);
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.19;
+      letter-spacing: 0.03em;
+      color: #FFFFFF;
+      }
+.logo-secondary{
+  font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
